@@ -1,0 +1,14 @@
+{
+  "name": "forme-fashion-ecommerce",
+  "version": "1.0.0",
+  "description": "FORME Fashion Brand E-Commerce Platform (React + Vite + NestJS + Prisma + MySQL)",
+  "scripts": {
+    "start:backend": "cd backend && npm run start:dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build",
+    "seed:backend": "cd backend && npm run prisma:seed"
+  },
+  "keywords": ["fashion", "ecommerce", "forme", "react", "nestjs", "prisma", "mysql"],
+  "author": "FORME Fashion Brand Team",
+  "license": "ISC"
+}
